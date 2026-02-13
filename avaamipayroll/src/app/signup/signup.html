@@ -26,7 +26,7 @@
         <input type="password" formControlName="password" placeholder="••••••••"
                [class.error]="signupForm.get('password')?.invalid && signupForm.get('password')?.touched">
         <small class="error-text" *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched">
-          Must be at least 6 characters.
+          Password Must be at least 6 characters.
         </small>
       </div>
 
